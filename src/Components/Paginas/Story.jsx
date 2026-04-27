@@ -8,7 +8,7 @@ import styles from "./story.module.css"
 
 function Story () {
     return(
-        <main>
+        <main className={styles.mano}>
             <nav>
                 <h2>Histórico</h2>
                 <span onClick={clic}><FaRegTrashAlt /> Limpar</span>

@@ -1,9 +1,9 @@
 
-main {
+main.mano {
     position: relative;
     z-index: 1;
 }
-main nav {
+main.mano nav {
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
@@ -11,11 +11,11 @@ main nav {
     padding: 20px;
 }
 
-main nav span  {
+main.mano nav span  {
     color: red;
     cursor: pointer;
 }
-main nav span svg {
+main.mano nav span svg {
     color: red;
     cursor: pointer;
 }
