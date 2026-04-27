@@ -1,0 +1,35 @@
+.story {
+    margin: 0 auto;
+    width: 80vw;
+}
+
+
+
+.story .caixa {
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    padding: 20px;
+    border-radius: 5px ;
+    margin-bottom: 10px;
+    
+}
+
+.story  .caixa div {
+    padding: 10px;
+    color: gray;
+}
+
+.story .caixa div.item {
+    text-align: right;
+    color:blue;
+}
+
+.story .caixa div.item2 {
+    text-align: right;
+    color: black;
+}
+.story .caixa div.item svg {
+    text-align: right;
+    color:blue;
+}

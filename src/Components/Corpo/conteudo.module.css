@@ -1,0 +1,160 @@
+.tudo {
+    margin-top: 30px;
+}
+
+.container {
+    margin: 0 auto;
+    width: 80vw;
+}
+.container section.perfil {
+    
+}
+.container section.perfil div h1 {
+    text-transform: capitalize;
+}
+
+.container section.perfil article {
+    margin-top: 30px;
+    background-color:white;
+    box-shadow: 1px 2px 3px rgb(177, 181, 184);
+    border-radius: 5px;
+}
+
+.container section.perfil article div {
+    padding: 20px;
+    
+}
+.preco {
+    font-size: 2em;
+    font-weight: bold;
+    
+  
+}
+
+.container section.perfil article div button {
+    width: 100%;
+    height: 50px;
+    margin-top: 10px;
+    background-color: var(--p);
+    cursor: pointer;
+    border-radius: 5px ;
+    color: white;
+    font-size: 1em;
+    border: none;
+
+}
+
+
+
+
+
+.consumo {
+    margin-top: 50px;
+   
+}
+.consumo h4 {
+    margin-bottom: 5px;
+}
+.consumo article.ft {
+    background-color:white;
+    border-radius: 5px;
+    height: 230px;
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+}
+
+.consumo article.ft div {
+    border: 1px solid white;
+    margin: 5px;
+    padding: 5px;
+    color: gray;
+   
+}
+
+.consumo article.ft div.a {
+    height: 68%;
+    background-color: orange;
+}
+.consumo article.ft div.b {
+    height: 50%;
+    background-color: rgb(22, 212, 22);
+}
+.consumo article.ft div.d {
+    height: 70%;
+    background-color: orangered;
+}
+
+.consumo article.ft div.c {
+    height: 90%;
+    background-color: red;
+}
+
+.consumo article.card {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.consumo article.card div {
+    margin: 7px;
+    width: 100%;
+    padding: 20px;
+    background-color: white;
+}
+
+.consumo article.card div svg {
+    color: var(--p);
+}
+.consumo article.card div span.ico svg {
+    color: rgb(15, 182, 15);
+}
+.consumo article.card div h2.com{
+    color: rgb(15, 182, 15);
+}
+
+.consumo article.caixabt button {
+    margin-top: 15px;
+    width: 100%;
+    height: 50px;
+    background-color: var(--p);
+    cursor: pointer;
+    border-radius: 5px ;
+    color: white;
+    font-size: 1em;
+    border: none;
+}
+
+
+.atividade {
+    margin-top: 50px;
+   
+}
+
+.atividade div.caixaA {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+
+
+.atividade article.caixatividade div.teste {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 50px 1fr 1fr;
+    padding: 20px;
+    border-radius: 5px ;
+    margin-bottom: 10px;
+}
+
+.atividade article.caixatividade div.teste div.coluna1 {
+    text-align: center;   
+}
+
+.atividade article.caixatividade div.teste div.coluna3 {
+    text-align: right; 
+}

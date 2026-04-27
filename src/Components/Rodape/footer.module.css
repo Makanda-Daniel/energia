@@ -1,0 +1,35 @@
+
+
+.rodape {
+    background-color:white;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 5;
+}
+svg {
+    color: gray;
+    font-size: 20px;
+}
+.rodape ul {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    padding: 10px;
+}
+
+.rodape ul a {
+   text-decoration: none;   
+}
+.rodape ul a div {
+    text-align: center;
+}
+
+.rodape ul a div p {
+    color:gray;
+    margin: 2px;
+    text-transform: capitalize;
+}

@@ -1,0 +1,16 @@
+{
+  "Projeto": [
+    {
+      "id": "e229",
+      "numero": "222"
+    }
+  ],
+  "Usuario": [
+    {
+      "id": "50a0",
+      "nome": "mmmm",
+      "email": "nm@gmail.com"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

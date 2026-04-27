@@ -1,0 +1,67 @@
+.perfil {
+    margin: 0 auto;
+    width: 80vw;
+    
+}
+
+.perfil section.per {
+    margin-top: 20px;
+}
+.perfil section.per div {
+    margin-top: 100px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.perfil section.per div svg {
+    font-size: 100px;
+    border-radius: 50%;
+    border: 1px solid gray;
+    padding: 10px;
+}
+
+
+.perfil section.per p {
+    text-align: center;
+}
+
+.perfil section.txt {
+    text-align: center;
+    margin-top: -50px;
+}
+
+.perfil section.foma {
+  
+}
+.perfil section.foma article {
+    background-color: rgb(255, 238, 238);
+    padding: 10px;
+    border-radius: 5px;
+}
+.perfil section.foma article form div {
+    padding: 10px;
+}
+
+.perfil section.foma article form div input {
+    height: 50px;
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid gray;
+    outline-color: var(--p);
+}
+
+.perfil section.foma article form div button{
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+    color: white;
+    font-size: 1em;
+    background-color: var(--p);
+    cursor: pointer;
+}
+

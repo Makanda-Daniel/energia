@@ -1,0 +1,46 @@
+.hcalcular {
+    margin: 0 auto;
+    width: 80vw;
+}
+
+.hcalcular section.txt {
+    margin-top: 25px;
+    margin-bottom: 20px;
+
+}
+
+.hcalcular section.txt p {
+    color: gray;
+    margin-top: 7px;
+
+}
+
+.hcalcular section.forma article {
+    background-color: rgb(255, 238, 238);
+    padding: 10px;
+}
+
+.hcalcular section.forma article form div {
+    padding: 10px;
+}
+
+.hcalcular section.forma article form div input{
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid gray;
+    outline-color: var(--p);
+}
+
+.hcalcular section.forma article form div button{
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+    color: white;
+    font-size: 1em;
+    background-color: var(--p);
+    cursor: pointer;
+}

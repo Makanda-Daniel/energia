@@ -1,0 +1,53 @@
+.conf {
+    margin: 0 auto;
+    width: 80vw;
+    padding: 20px;
+}
+section {
+   
+}
+
+.conf section {
+    margin-top: 20px;
+}
+
+.conf section span{
+    color: gray;
+    
+}
+
+.conf section .card {
+    margin-top: 5px;
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    background-color: white;
+    border-radius: 5px;
+   
+
+}
+
+.conf section .card div {
+   
+     padding: 20px;
+}
+
+.conf section .card .item {
+    text-align: center;
+    color: blue;
+}
+.conf section .card .preco {
+    
+    color: blue;
+}
+
+.conf section .card .red svg {
+    color: red;
+    font-size: 25px;
+    background-color: rgba(255, 0, 0, 0.342);
+    padding: 5px;
+}
+
+
+.conf section .card div svg {
+    color: blue;
+}

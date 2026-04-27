@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:Arial, Helvetica, sans-serif;
+
+}
+
+:root {
+    
+    --fundo:#d5dee7;
+    --p:rgb(41, 67, 144);
+    --s:gray;
+}
+
+
+
+
+html, body {
+  height: 100%;
+  margin: 0;
+  background-color: rgb(213, 224, 233);
+  font-size: 1.1em;
+  
+}
+
+.appy {
+  
+  display: flex;
+  flex-flow: column;
+  min-height: 100vh;
+ 
+}
+
+.conteudo {
+  flex: 1;
+  
+}
+
+
+.rpe {
+    background-color:white;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 5;
+}
+
+
