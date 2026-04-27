@@ -1,6 +1,5 @@
 import CardStory from "../Cards/CardStory"
 import { FaRegTrashAlt } from "react-icons/fa";
-import { Link } from "react-router-dom";
 import styles from "./story.module.css"
 
  function clic() {

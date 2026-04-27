@@ -1,6 +1,6 @@
 import styles from "./recalculo.module.css"
-import { useState } from "react"
-import { useEffect } from "react"
+
+import { useEffect, useState } from "react"
 function Recalculo () {
 
     const [cap, setCap] = useState([])

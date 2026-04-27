@@ -2,7 +2,7 @@ import styles from "./conteudo.module.css"
 import { SlEnergy } from "react-icons/sl";
 import { GoHistory } from "react-icons/go";
 import { FaArrowTrendUp } from "react-icons/fa6";
-import { useLocation, Link } from "react-router-dom"
+import {  Link } from "react-router-dom"
 function Conteudo () {
 
     const clicar = () => {

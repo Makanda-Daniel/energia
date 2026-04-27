@@ -1,5 +1,5 @@
 import styles from "./calculo.module.css"
-import { useState, useEffect } from "react"
+import { useState } from "react"
 import Recalculo from "./Recalculo"
 function Calculo () {
      const [ anterior, setAnterior] = useState ([])

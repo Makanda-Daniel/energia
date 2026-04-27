@@ -4,9 +4,9 @@ import Conf from "./Components/Paginas/Conf";
 import Story from "./Components/Paginas/Story";
 import Layout from "./Components/Layout/Layout";
 import Calculo from "./Components/Paginas/Calculo";
-import {BrowserRouter,Routes,Link,Route, Outlet} from "react-router-dom"
+import {BrowserRouter,Routes,Route} from "react-router-dom"
 import Footer from "./Components/Rodape/Footer";
-import Fi from "./Pratica/Fi";
+
 
 function App() {
 

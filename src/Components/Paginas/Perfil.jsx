@@ -1,7 +1,7 @@
 import styles from "./perfil.module.css"
 import { useState } from "react"
 import { FaUser } from "react-icons/fa";
-import { CiUser } from "react-icons/ci";
+
 function Perfil(){
 
   const [nome, setNome] = useState("");
