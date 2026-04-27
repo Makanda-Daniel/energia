@@ -151,8 +151,14 @@
     margin-bottom: 10px;
 }
 
-.atividade article.caixatividade div.teste div.coluna1 {
+.atividade article.caixatividade div.teste div.coluna1  {
     text-align: center;   
+    
+}
+
+.atividade article.caixatividade div.teste div.coluna1 svg {
+    
+    color: blue;
 }
 
 .atividade article.caixatividade div.teste div.coluna3 {
