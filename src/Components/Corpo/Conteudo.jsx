@@ -2,6 +2,7 @@ import styles from "./conteudo.module.css"
 import { SlEnergy } from "react-icons/sl";
 import { GoHistory } from "react-icons/go";
 import { FaArrowTrendUp } from "react-icons/fa6";
+import Cardconsumo from "../Cards/Cardconsumo";
 import {  Link } from "react-router-dom"
 function Conteudo () {
 
@@ -19,7 +20,7 @@ function Conteudo () {
                         <div>
                             <span>FATURA</span> <br/>
                             <span>mês de abril</span> <br/>
-                            <span className={styles.preco} >15.738 kz</span> <br/>
+                            <span className={styles.preco} >12.000 kz</span> <br/>
                             <button onClick={clicar} >Pagar Fatura</button>
                         </div>
                     </article>
@@ -29,11 +30,7 @@ function Conteudo () {
                 <section className={styles.consumo} >
                     <h4>Consumo de Energia</h4>
                     <article className={styles.ft} >
-                        <div className={styles.a}>n</div>
-                        <div className={styles.b}>b</div>
-                        <div className={styles.c}>e</div>
-                        <div className={styles.d}>m</div>
-
+                        <Cardconsumo/>
                     </article>
                     <article className={styles.card} >
                         <div>

@@ -8,10 +8,7 @@
     width: 100%;
     z-index: 5;
 }
-svg {
-    color: white;
-    font-size: 20px;
-}
+
 .rodape ul {
     display: flex;
     flex-flow: row nowrap;
@@ -28,6 +25,11 @@ svg {
     text-align: center;
 }
 
+.rodape ul  div span svg {
+        color: white;
+    font-size: 20px;
+    
+}
 .rodape ul a div p {
     color:white;
     margin: 2px;

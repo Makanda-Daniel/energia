@@ -1,26 +1,24 @@
 {
   "Projeto": [
     {
-      "id": "e229",
-      "numero": "222"
+      "id": "2692",
+      "numero": "23"
     },
     {
-      "id": "194a",
-      "numero": "4"
-    },
-    {
-      "id": "2c96",
-      "numero": {
-        "id": "194a",
-        "numero": "4"
-      }
+      "id": "342b",
+      "numero": "444"
     }
   ],
   "Usuario": [
     {
-      "id": "50a0",
-      "nome": "mmmm",
-      "email": "nm@gmail.com"
+      "id": "1706",
+      "nome": "flavia",
+      "email": "fakw@gmail.com"
+    },
+    {
+      "id": "5f7e",
+      "nome": "dangg",
+      "email": "b@gmail.com"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"

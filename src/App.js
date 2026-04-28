@@ -7,7 +7,6 @@ import Calculo from "./Components/Paginas/Calculo";
 import {BrowserRouter,Routes,Route} from "react-router-dom"
 import Footer from "./Components/Rodape/Footer";
 
-
 function App() {
 
  

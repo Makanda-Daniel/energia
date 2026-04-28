@@ -1,0 +1,50 @@
+.card {
+  width: 100%;  
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  font-family: Arial, sans-serif;
+}
+
+.topo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.topo span {
+  font-size: 14px;
+  color: #888;
+}
+
+.consumo p,
+.valor p {
+  font-size: 13px;
+  color: #666;
+}
+
+.consumo h1 {
+  font-size: 28px;
+  color: #2563eb;
+  margin: 5px 0;
+}
+
+.valor h2 {
+  font-size: 20px;
+  margin: 5px 0 15px;
+}
+
+.status {
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.status.positivo {
+  color: green;
+}
+
+.status.negativo {
+  color: red;
+}

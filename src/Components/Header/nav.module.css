@@ -14,11 +14,13 @@
 
 }
  
-.cabeca div svg {
+.cabeca div.icone svg {
     font-size: 45px;
     border-radius: 50%;
     border: 1px solid gray;
     padding: 10px;
+    color: gray;
+   
     
     
 }

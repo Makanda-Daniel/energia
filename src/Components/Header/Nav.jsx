@@ -9,7 +9,7 @@ function Nav () {
         <div>
             <header className={styles.cabeca}>
                 <div> digitalEnergy </div>
-                <div><FaUser /></div>
+                <div className={styles.icone}><FaUser /></div>
             </header>
        </div>
     )
